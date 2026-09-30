@@ -66,6 +66,7 @@ var posts = [
 const feed = document.getElementById("feed");
 console.log(feed)
 const botaoAbrir = document.getElementById("botaoAbrirModal")
+const botaoFechar = document.getElementById("botaoFecharModal")
 const modal = document.getElementById("modalPost")
 
 botaoAbrir.addEventListener("click" , () => {
